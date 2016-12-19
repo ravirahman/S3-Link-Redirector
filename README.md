@@ -10,7 +10,7 @@ npm install https://github.com/techx/s3-link-redirector.git --save
 
 Then, in your code
 
-```javascript 1.6
+```javascript
 const redirector = require('s3-link-redirector');
 const links = {
     "a": {
