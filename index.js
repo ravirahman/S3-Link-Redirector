@@ -35,7 +35,7 @@ module.exports = (links, options, cb) => {
                         ContentLength: 0,
                         ContentType: 'text/html',
                         Metadata: {
-                            WebsiteRedirectLocation: subEntry.get(0)
+                            "x-amz-website-redirect-location": subEntry.get(0)
                         }
                     }, (err) => {
                         if (err) {
