@@ -3,6 +3,7 @@
   "author": "Ravi Rahman <ravi@ravirahman.com>",
   "description": "Link redirection via AWS S3",
   "repository": "github:ravirahman/s3-link-redirector",
+  "main": "index.js",
   "version": "1.0.0",
   "license": "Apache-2.0",
   "dependencies": {
