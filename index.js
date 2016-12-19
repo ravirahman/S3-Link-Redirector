@@ -21,7 +21,7 @@ module.exports = (links, options, cb) => {
     }
     const reduceEntry = (promises, entry) => {
         return entry.reduce((promises, subEntry, key) => {
-            const resource = path.join(entry.get('resource', "/"), key);
+            const resource = path.join(entry.get('resource', ""), key);
             if (Immutable.Map.isMap(subEntry)) { //contains sub-resources
                 return reduceEntry(subEntry.set('resource', resource));
             }
