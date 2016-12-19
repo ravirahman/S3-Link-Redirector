@@ -34,9 +34,7 @@ module.exports = (links, options, cb) => {
                         CacheControl: `max-age=${subEntry.get(1, 0)}`,
                         ContentLength: 0,
                         ContentType: 'text/html',
-                        Metadata: {
-                            "x-amz-website-redirect-location": subEntry.get(0)
-                        }
+                        'x-amz-website-redirect-location': subEntry.get(0),
                     }, (err) => {
                         if (err) {
                             return reject(err);
