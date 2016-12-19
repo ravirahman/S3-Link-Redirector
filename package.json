@@ -1,0 +1,12 @@
+{
+  "name": "s3-link-redirector",
+  "author": "Ravi Rahman <ravi@ravirahman.com>",
+  "description": "Link redirection via AWS S3",
+  "repository": "github:ravirahman/s3-link-redirector",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "aws-sdk": "^2.7.15",
+    "immutable": "^3.8.1"
+  }
+}
