@@ -4,7 +4,7 @@ const AWS = require('aws-sdk');
 const Immutable = require('immutable');
 const path = require('path');
 
-const s3 = AWS.S3();
+const s3 = new AWS.S3();
 
 module.exports = (links, options, cb) => {
     if (options.accessKeyId) {
