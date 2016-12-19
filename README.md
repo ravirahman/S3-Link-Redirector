@@ -5,13 +5,13 @@ Link redirection via AWS S3
 ## Getting Started
 
 ```sh
-npm install https://github.com/techx/s3-link-redirector.git --save
+npm install ravirahman/S3-Link-Redirector --save
 ```
 
-Then, in your code
+Then, in your code:
 
 ```javascript
-const redirector = require('s3-link-redirector');
+const redirector = require('S3-Link-Redirector');
 const links = {
     "a": {
         "b": {
